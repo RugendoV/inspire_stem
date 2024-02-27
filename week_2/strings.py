@@ -28,7 +28,7 @@ town = "            Naivasha         "
 
 print(town)
 print("\t") #new tab
-print(town.strip())  
+print(town.strip())    # strip removes empty spaces
 
 # add two strings
 
@@ -53,6 +53,30 @@ age = 30
 height = 1.58 
 print("I am {0} years old and {1} metres tall ".format(age,height))   # hii inaweka vitu ndani ya curly brackets
 
+
+activity = "dancing"
+print("My hobby is %s" %(activity))     # %s is to show a string
+
+# printing a float
+height = 1.3454885412
+print("My height is %5.3f"% (height))
+
+# printing an integer
+age = 32
+print("My age is %d"% (age)) 
+
+
+
+name = "Victoria R"
+print(len(name))
+
+print(f"My full name is {name}")
+
+
+school = " Engineering"
+course = "Electrical"
+
+print("I am studying {course} in the school of {school}".format(course="med",school="Human sciences"))
 
 
 
