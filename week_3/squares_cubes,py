@@ -1,0 +1,12 @@
+# this is a program to print all squares and cubes of numbers between 1 and 10
+# Rugendo
+# 29/2/24
+
+# Squares
+
+for x in range(0,11):
+    print(str(x**2) + "\t ",end = " " )
+
+# Cubes
+for x in range(0,11):
+    print(str(x**3) + "\t ",end = " " )
